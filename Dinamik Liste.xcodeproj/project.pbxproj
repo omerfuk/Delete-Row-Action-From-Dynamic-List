@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0AD14228292FAB00CEA20E /* Dinamik_ListeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD14128292FAB00CEA20E /* Dinamik_ListeApp.swift */; };
+		DE0AD14428292FAB00CEA20E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD14328292FAB00CEA20E /* ContentView.swift */; };
+		DE0AD14628292FAE00CEA20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0AD14528292FAE00CEA20E /* Assets.xcassets */; };
+		DE0AD14928292FAE00CEA20E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0AD14828292FAE00CEA20E /* Preview Assets.xcassets */; };
+		DE0AD15328292FAE00CEA20E /* Dinamik_ListeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD15228292FAE00CEA20E /* Dinamik_ListeTests.swift */; };
+		DE0AD15D28292FAE00CEA20E /* Dinamik_ListeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD15C28292FAE00CEA20E /* Dinamik_ListeUITests.swift */; };
+		DE0AD15F28292FAE00CEA20E /* Dinamik_ListeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD15E28292FAE00CEA20E /* Dinamik_ListeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0AD14F28292FAE00CEA20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0AD13628292FAB00CEA20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0AD13D28292FAB00CEA20E;
+			remoteInfo = "Dinamik Liste";
+		};
+		DE0AD15928292FAE00CEA20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0AD13628292FAB00CEA20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0AD13D28292FAB00CEA20E;
+			remoteInfo = "Dinamik Liste";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0AD13E28292FAB00CEA20E /* Dinamik Liste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dinamik Liste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AD14128292FAB00CEA20E /* Dinamik_ListeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinamik_ListeApp.swift; sourceTree = "<group>"; };
+		DE0AD14328292FAB00CEA20E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE0AD14528292FAE00CEA20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0AD14828292FAE00CEA20E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE0AD14E28292FAE00CEA20E /* Dinamik ListeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dinamik ListeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AD15228292FAE00CEA20E /* Dinamik_ListeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinamik_ListeTests.swift; sourceTree = "<group>"; };
+		DE0AD15828292FAE00CEA20E /* Dinamik ListeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dinamik ListeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AD15C28292FAE00CEA20E /* Dinamik_ListeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinamik_ListeUITests.swift; sourceTree = "<group>"; };
+		DE0AD15E28292FAE00CEA20E /* Dinamik_ListeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinamik_ListeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0AD13B28292FAB00CEA20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD14B28292FAE00CEA20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD15528292FAE00CEA20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0AD13528292FAB00CEA20E = {
+			isa = PBXGroup;
+			children = (
+				DE0AD14028292FAB00CEA20E /* Dinamik Liste */,
+				DE0AD15128292FAE00CEA20E /* Dinamik ListeTests */,
+				DE0AD15B28292FAE00CEA20E /* Dinamik ListeUITests */,
+				DE0AD13F28292FAB00CEA20E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0AD13F28292FAB00CEA20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD13E28292FAB00CEA20E /* Dinamik Liste.app */,
+				DE0AD14E28292FAE00CEA20E /* Dinamik ListeTests.xctest */,
+				DE0AD15828292FAE00CEA20E /* Dinamik ListeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0AD14028292FAB00CEA20E /* Dinamik Liste */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD14128292FAB00CEA20E /* Dinamik_ListeApp.swift */,
+				DE0AD14328292FAB00CEA20E /* ContentView.swift */,
+				DE0AD14528292FAE00CEA20E /* Assets.xcassets */,
+				DE0AD14728292FAE00CEA20E /* Preview Content */,
+			);
+			path = "Dinamik Liste";
+			sourceTree = "<group>";
+		};
+		DE0AD14728292FAE00CEA20E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD14828292FAE00CEA20E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE0AD15128292FAE00CEA20E /* Dinamik ListeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD15228292FAE00CEA20E /* Dinamik_ListeTests.swift */,
+			);
+			path = "Dinamik ListeTests";
+			sourceTree = "<group>";
+		};
+		DE0AD15B28292FAE00CEA20E /* Dinamik ListeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD15C28292FAE00CEA20E /* Dinamik_ListeUITests.swift */,
+				DE0AD15E28292FAE00CEA20E /* Dinamik_ListeUITestsLaunchTests.swift */,
+			);
+			path = "Dinamik ListeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0AD13D28292FAB00CEA20E /* Dinamik Liste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0AD16228292FAE00CEA20E /* Build configuration list for PBXNativeTarget "Dinamik Liste" */;
+			buildPhases = (
+				DE0AD13A28292FAB00CEA20E /* Sources */,
+				DE0AD13B28292FAB00CEA20E /* Frameworks */,
+				DE0AD13C28292FAB00CEA20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dinamik Liste";
+			productName = "Dinamik Liste";
+			productReference = DE0AD13E28292FAB00CEA20E /* Dinamik Liste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0AD14D28292FAE00CEA20E /* Dinamik ListeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0AD16528292FAE00CEA20E /* Build configuration list for PBXNativeTarget "Dinamik ListeTests" */;
+			buildPhases = (
+				DE0AD14A28292FAE00CEA20E /* Sources */,
+				DE0AD14B28292FAE00CEA20E /* Frameworks */,
+				DE0AD14C28292FAE00CEA20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0AD15028292FAE00CEA20E /* PBXTargetDependency */,
+			);
+			name = "Dinamik ListeTests";
+			productName = "Dinamik ListeTests";
+			productReference = DE0AD14E28292FAE00CEA20E /* Dinamik ListeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0AD15728292FAE00CEA20E /* Dinamik ListeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0AD16828292FAE00CEA20E /* Build configuration list for PBXNativeTarget "Dinamik ListeUITests" */;
+			buildPhases = (
+				DE0AD15428292FAE00CEA20E /* Sources */,
+				DE0AD15528292FAE00CEA20E /* Frameworks */,
+				DE0AD15628292FAE00CEA20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0AD15A28292FAE00CEA20E /* PBXTargetDependency */,
+			);
+			name = "Dinamik ListeUITests";
+			productName = "Dinamik ListeUITests";
+			productReference = DE0AD15828292FAE00CEA20E /* Dinamik ListeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0AD13628292FAB00CEA20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DE0AD13D28292FAB00CEA20E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DE0AD14D28292FAE00CEA20E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DE0AD13D28292FAB00CEA20E;
+					};
+					DE0AD15728292FAE00CEA20E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DE0AD13D28292FAB00CEA20E;
+					};
+				};
+			};
+			buildConfigurationList = DE0AD13928292FAB00CEA20E /* Build configuration list for PBXProject "Dinamik Liste" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0AD13528292FAB00CEA20E;
+			productRefGroup = DE0AD13F28292FAB00CEA20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0AD13D28292FAB00CEA20E /* Dinamik Liste */,
+				DE0AD14D28292FAE00CEA20E /* Dinamik ListeTests */,
+				DE0AD15728292FAE00CEA20E /* Dinamik ListeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0AD13C28292FAB00CEA20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD14928292FAE00CEA20E /* Preview Assets.xcassets in Resources */,
+				DE0AD14628292FAE00CEA20E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD14C28292FAE00CEA20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD15628292FAE00CEA20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0AD13A28292FAB00CEA20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD14428292FAB00CEA20E /* ContentView.swift in Sources */,
+				DE0AD14228292FAB00CEA20E /* Dinamik_ListeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD14A28292FAE00CEA20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD15328292FAE00CEA20E /* Dinamik_ListeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD15428292FAE00CEA20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD15F28292FAE00CEA20E /* Dinamik_ListeUITestsLaunchTests.swift in Sources */,
+				DE0AD15D28292FAE00CEA20E /* Dinamik_ListeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0AD15028292FAE00CEA20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0AD13D28292FAB00CEA20E /* Dinamik Liste */;
+			targetProxy = DE0AD14F28292FAE00CEA20E /* PBXContainerItemProxy */;
+		};
+		DE0AD15A28292FAE00CEA20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0AD13D28292FAB00CEA20E /* Dinamik Liste */;
+			targetProxy = DE0AD15928292FAE00CEA20E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE0AD16028292FAE00CEA20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0AD16128292FAE00CEA20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0AD16328292FAE00CEA20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dinamik Liste/Preview Content\"";
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Dinamik-Liste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0AD16428292FAE00CEA20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dinamik Liste/Preview Content\"";
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Dinamik-Liste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0AD16628292FAE00CEA20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Dinamik-ListeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dinamik Liste.app/Dinamik Liste";
+			};
+			name = Debug;
+		};
+		DE0AD16728292FAE00CEA20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Dinamik-ListeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dinamik Liste.app/Dinamik Liste";
+			};
+			name = Release;
+		};
+		DE0AD16928292FAE00CEA20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Dinamik-ListeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dinamik Liste";
+			};
+			name = Debug;
+		};
+		DE0AD16A28292FAE00CEA20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Dinamik-ListeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dinamik Liste";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0AD13928292FAB00CEA20E /* Build configuration list for PBXProject "Dinamik Liste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD16028292FAE00CEA20E /* Debug */,
+				DE0AD16128292FAE00CEA20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0AD16228292FAE00CEA20E /* Build configuration list for PBXNativeTarget "Dinamik Liste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD16328292FAE00CEA20E /* Debug */,
+				DE0AD16428292FAE00CEA20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0AD16528292FAE00CEA20E /* Build configuration list for PBXNativeTarget "Dinamik ListeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD16628292FAE00CEA20E /* Debug */,
+				DE0AD16728292FAE00CEA20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0AD16828292FAE00CEA20E /* Build configuration list for PBXNativeTarget "Dinamik ListeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD16928292FAE00CEA20E /* Debug */,
+				DE0AD16A28292FAE00CEA20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0AD13628292FAB00CEA20E /* Project object */;
+}
