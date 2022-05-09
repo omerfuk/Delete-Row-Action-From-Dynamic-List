@@ -10,7 +10,16 @@ import SwiftUI
 struct UlkeSatirTasarimi: View {
     var ulkeAdi:String
     var body: some View {
-       Text(ulkeAdi)
+       
+        HStack{
+            Text(ulkeAdi)
+            Spacer()
+            Text("Ülke Seç")
+                .foregroundColor(Color.red)
+                .onTapGesture {
+                    print("Seçilen Ülke : \(self.ulkeAdi)")
+                }
+        }
     }
 }
 
@@ -25,9 +34,7 @@ struct ContentView: View {
                 
                 ForEach(ulkelerListesi,id:\.self){ ulke in
                     UlkeSatirTasarimi(ulkeAdi: ulke)
-                        .onTapGesture {
-                            print("Satır Tasarımı Tıklandı : \(ulke)")
-                        }
+                        
                     
                 }.onDelete(perform: ulkeSil)
             }.navigationTitle("Ulkeler")
