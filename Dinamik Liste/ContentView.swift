@@ -23,6 +23,18 @@ struct UlkeSatirTasarimi: View {
     }
 }
 
+struct IkinciSayfa: View {
+    var gelenUlke:String?
+    var body: some View {
+        
+        
+        VStack{
+            Text(gelenUlke!)
+        }.navigationTitle(gelenUlke!)
+        
+    }
+}
+
 struct ContentView: View {
     
     @State private var ulkelerListesi = [String]()
@@ -33,8 +45,12 @@ struct ContentView: View {
             List{
                 
                 ForEach(ulkelerListesi,id:\.self){ ulke in
-                    UlkeSatirTasarimi(ulkeAdi: ulke)
-                        
+                    
+                    NavigationLink(destination:IkinciSayfa(gelenUlke: ulke)){
+                        UlkeSatirTasarimi(ulkeAdi: ulke)
+                       
+                    }
+      
                     
                 }.onDelete(perform: ulkeSil)
             }.navigationTitle("Ulkeler")
