@@ -25,6 +25,9 @@ struct ContentView: View {
                 
                 ForEach(ulkelerListesi,id:\.self){ ulke in
                     UlkeSatirTasarimi(ulkeAdi: ulke)
+                        .onTapGesture {
+                            print("Satır Tasarımı Tıklandı : \(ulke)")
+                        }
                     
                 }.onDelete(perform: ulkeSil)
             }.navigationTitle("Ulkeler")
